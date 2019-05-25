@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Lịch khai giảng</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+      <link rel="stylesheet" type="text/css" href="slick/slick.css">
+      <link rel="stylesheet" href="OwlCarousel/assets/owl.carousel.default.min.css">
+      <link rel="stylesheet" href="OwlCarousel/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="jQuery.mmenu/jquery.mmenu.all.css">
+      <link rel="stylesheet" type="text/css" href="css/home.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   </head>
+   <body>
+      <header>
+         <!-- data-spy="affix" data-offset-top="60" data-offset-bottom="200" -->
+         <div class="header-top hidden-xs hidden-sm">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-10">
+                     <p class="mail-span">
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i> HN - ĐN: <strong>0904 92 22 11</strong> / CT - HCM: <strong>0904 95 93 93</strong></span>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i> aotaopublic@fsb.edu.vn</span>
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> Thời gian làm việc: Mon - Sat 08:30 - 17:30</span>
+                     </p>
+                  </div>
+                  <div class="col-sm-2">
+                     <ul>
+                        <li><a href=""><img src="images/icon-facebook-square.png" alt=""></a></li>
+                        <li class="lienket"><a href=""><img src="images/icon-youtube-square.png" alt=""></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-main hidden-xs hidden-sm">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-6">
+                     <div class="logotop">
+                        <a href="#"><img width="35%" src="images/logo.png" alt=""></a>
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <div class="form-top">
+                        <form method="GET" action="">
+                           <input type="text" name="s" class="form-control" placeholder="Tìm kiếm...">
+                           <button type="submit">
+                           <i class="fa fa-search" aria-hidden="true"></i>
+                           </button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <nav class="navbar navbar-default hidden-xs hidden-sm wow fadeInRight" role="navigation">
+            <div class="container">
+               <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul class="nav navbar-nav navbar-left">
+                     <li><a href=""><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                     <li>
+                        <a href="">Giới thiệu</a>
+                        <ul class="sub-menu">
+                           <li><a href="">Lịch sử phát triển</a></li>
+                           <li><a href="">Thông điệp từ Viện Trưởng</a></li>
+                           <li><a href="">Sứ mệnh – Triết lý</a></li>
+                           <li><a href="">Thành tựu – Xếp hạng</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="">Chương trình đào tạo</a>
+                        <ul class="sub-menu">
+                           <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                           <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                           <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                           <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                           <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="">Giảng viên</a></li>
+                     <li><a href="">Lịch khai giảng</a></li>
+                     <li><a href="">Thư viện</a></li>
+                     <li><a href="">Tài liệu</a></li>
+                     <li>
+                        <a href="">Tin tức</a>
+                        <ul class="sub-menu">
+                           <li><a href="">Tin tuyển sinh</a></li>
+                           <li><a href="">Sự kiện</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <div class="nutdangky">
+                     <a href="">Đăng ký</a>
+                  </div>
+               </div>
+               <!-- /.navbar-collapse -->
+            </div>
+         </nav>
+         <div class="menu-mobile hidden-md hidden-lg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-3 col-sm-4">
+                     <div><a href="#my-menu"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
+                  </div>
+                  <div class="col-xs-6 col-sm-4">
+                     <a class="center-block" href="#"><img width="100%" class="center-block" src="images/logo.png" alt=""></a>
+                  </div>
+                  <div class="col-xs-3 col-sm-4">
+                     <div class="tiemkiem-mobile">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                     </div>
+                     <div class="clearfix"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="form-mobile">
+               <div class="container">
+                  <form method="GET" action="">
+                     <input type="text" class="form-control" name="s" placeholder="Tìm kiếm...">
+                     <button type="submit">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div id="content" class="site-content">
+            <section class="ctdm btn-sp">
+               <div class="container">
+                  <div class="box1ctfm">
+                     <h3 class="title-dm">Chương trình đào tạo CEO GLOBAL</h3>
+                     <div class="table-responsive">
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>Tên khóa học</td>
+                                 <td>Khai giảng Hà Nội</td>
+                                 <td>Khai giảng Hồ Chí Minh</td>
+                                 <td>Học phí</td>
+                                 <td>Brochure</td>
+                                 <td>Đăng ký</td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/glp-nhalanhdaotoancau_taihoaky/">GLP – Nhà Lãnh Đạo Toàn Cầu/ GLOBAL LEADERSHIP PROGRAM (Học tại Mỹ)</a></td>
+                                 <td>
+                                    <p><strong></strong><span>23/03/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>23/03/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 148.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/GLP-HN_HCM_2018.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/glp-nha-lanh-dao-toan-cau-global-leadership-program-hoc-tai-singapore/">GLP – Nhà Lãnh Đạo Toàn Cầu/ GLOBAL LEADERSHIP PROGRAM (Học tại Singapore)</a></td>
+                                 <td>
+                                    <p><strong></strong><span>07/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>07/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 43.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/FSB_GLP_Singapore_2018.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/ceo-nha-lanh-dao-ky-nguyen-4-0/">CEO – Nhà lãnh đạo kỷ nguyên 4.0</a></td>
+                                 <td>
+                                    <p><strong></strong><span>16/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 23.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2019/03/Booklet-CEO-4.0_V2-đã-nén.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="box1ctfm">
+                     <h3 class="title-dm">Chương trình đào tạo dành cho Giám đốc</h3>
+                     <div class="table-responsive">
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>Tên khóa học</td>
+                                 <td>Khai giảng Hà Nội</td>
+                                 <td>Khai giảng Hồ Chí Minh</td>
+                                 <td>Học phí</td>
+                                 <td>Brochure</td>
+                                 <td>Đăng ký</td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/glp-nhalanhdaotoancau_taihoaky/">GLP – Nhà Lãnh Đạo Toàn Cầu/ GLOBAL LEADERSHIP PROGRAM (Học tại Mỹ)</a></td>
+                                 <td>
+                                    <p><strong></strong><span>23/03/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>23/03/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 148.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/GLP-HN_HCM_2018.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/glp-nha-lanh-dao-toan-cau-global-leadership-program-hoc-tai-singapore/">GLP – Nhà Lãnh Đạo Toàn Cầu/ GLOBAL LEADERSHIP PROGRAM (Học tại Singapore)</a></td>
+                                 <td>
+                                    <p><strong></strong><span>07/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>07/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 43.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/FSB_GLP_Singapore_2018.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/minimba-tinh-hoa-quan-tri-thuc-hanh-cua-ceo/">MiniMBA – TINH HOA QUẢN TRỊ THỰC HÀNH CỦA CEO</a></td>
+                                 <td>
+                                    <p><strong></strong><span>25/05/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>08/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 20.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/Leaflet_miniMBA2018.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/ceo-nha-lanh-dao-ky-nguyen-4-0/">CEO – Nhà lãnh đạo kỷ nguyên 4.0</a></td>
+                                 <td>
+                                    <p><strong></strong><span>16/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 23.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2019/03/Booklet-CEO-4.0_V2-đã-nén.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/mba-4-0-modules/">MBM 4.0 – Lựa chọn chương trình, tích lũy tín chỉ, Nhận bằng thạc sĩ</a></td>
+                                 <td>
+                                    <p><strong></strong><span>16/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>07/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 16.800.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2019/04/MBA40-Modules-v6-đã-nén.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/minimba-network-ket-noi/">MiniMBA NETWORK – KẾT NỐI</a></td>
+                                 <td>
+                                    <p><strong></strong><span>16/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>14/07/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 25.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2019/04/FSB_Brochure_miniMBA-Ket-noi.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/chro-giam-doc-nhan-su/">CHRO – GIÁM ĐỐC NHÂN SỰ</a></td>
+                                 <td>
+                                    <p><strong></strong><span>29/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 14.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/Brochure_CHRO_V6-đã-nén.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/cfo-giam-doc-tai-chinh/">CFO – GIÁM ĐỐC TÀI CHÍNH</a></td>
+                                 <td>
+                                    <p><strong></strong><span>29/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 18.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/Brochure_CFO_V7-đã-nén.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/cpo-giam-doc-san-xuat/">CPO – GIÁM ĐỐC SẢN XUẤT</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/gpld-giai-phong-lanh-dao/">GPLD – GIẢI PHÓNG LÃNH ĐẠO</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="box1ctfm">
+                     <h3 class="title-dm">Chương trình đào tạo dành cho Quản lý - Lãnh đạo</h3>
+                     <div class="table-responsive">
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>Tên khóa học</td>
+                                 <td>Khai giảng Hà Nội</td>
+                                 <td>Khai giảng Hồ Chí Minh</td>
+                                 <td>Học phí</td>
+                                 <td>Brochure</td>
+                                 <td>Đăng ký</td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/mba-4-0-modules/">MBM 4.0 – Lựa chọn chương trình, tích lũy tín chỉ, Nhận bằng thạc sĩ</a></td>
+                                 <td>
+                                    <p><strong></strong><span>16/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>07/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 16.800.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2019/04/MBA40-Modules-v6-đã-nén.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/smm-nang-cao-nang-luc-cho-quan-ly-cap-trung/">SMM – NÂNG CAO NĂNG LỰC CHO QUẢN LÝ CẤP TRUNG</a></td>
+                                 <td>
+                                    <p><strong></strong><span>26/05/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>26/05/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 6.800.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/FSB_SMM-leaflet-2018.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/fmf-quantritaichinh_doanhnghiep/">FMF – QUẢN TRỊ TÀI CHÍNH DOANH NGHIỆP</a></td>
+                                 <td>
+                                    <p><strong></strong><span>21/05/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>Chưa có lịch</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 6.800.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/FSB_FMF_Quản-lý-tài-chính-doanh-nghiệp-Pro-CEO-đã-chuyển-đổi-1.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/bsc-kpi-cong-cu-lap-ke-hoach-va-quan-ly-cong-viec-hieu-qua/">BSC – KPI: CÔNG CỤ QUẢN LÝ DOANH NGHIỆP HIỆN ĐẠI VÀ HIỆU QUẢ</a></td>
+                                 <td>
+                                    <p><strong></strong><span>20/04/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 3.600.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2018/11/BSC-KPI-CÔNG-CỤ-QUẢN-LÝ-DOANH-NGHIỆP-HIỆN-ĐẠI-HIỆU-QUẢ-đã-chuyển-đổi-1.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/truyen-thong-noi-bo-va-van-hoa-doanh-nghiep/">TRUYỀN THÔNG NỘI BỘ VÀ VĂN HÓA DOANH NGHIỆP</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/ke-toan-danh-cho-lanh-dao/">KẾ TOÁN DÀNH CHO LÃNH ĐẠO</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/quan-tri-cuoc-doi/">QUẢN TRỊ CUỘC ĐỜI</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/tai-chinh-danh-cho-lanh-dao/">TÀI CHÍNH DÀNH CHO LÃNH ĐẠO</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="box1ctfm">
+                     <h3 class="title-dm">Chương trình đào tạo nhân sự - nhân lực</h3>
+                     <div class="table-responsive">
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>Tên khóa học</td>
+                                 <td>Khai giảng Hà Nội</td>
+                                 <td>Khai giảng Hồ Chí Minh</td>
+                                 <td>Học phí</td>
+                                 <td>Brochure</td>
+                                 <td>Đăng ký</td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/mba-4-0-modules/">MBM 4.0 – Lựa chọn chương trình, tích lũy tín chỉ, Nhận bằng thạc sĩ</a></td>
+                                 <td>
+                                    <p><strong></strong><span>16/06/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>07/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 16.800.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="wp-content/uploads/2019/04/MBA40-Modules-v6-đã-nén.pdf">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/khoa-hoc-ky-nang-ban-hang-cham-soc-khach-hang-dinh-cao/">KỸ NĂNG BÁN HÀNG &amp; CHĂM SÓC KHÁCH HÀNG</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>05/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 2.500.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/chro-giam-doc-nhan-su-2/">CHRO – GIÁM ĐỐC NHÂN SỰ</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 14.000.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/quan-tri-nhan-su-chien-luoc/">QUẢN TRỊ NHÂN SỰ CHIẾN LƯỢC</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/tao-dong-luc-lam-viec-cho-nhan-vien/">TẠO ĐỘNG LỰC LÀM VIỆC CHO NHÂN VIÊN</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/phr-dao-tao-nhan-su-theo-chuan-quoc-te/">PHR – ĐÀO TẠO NHÂN SỰ THEO CHUẨN QUỐC TẾ</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="box1ctfm">
+                     <h3 class="title-dm">Chương trình đào tạo kỹ năng bán hàng</h3>
+                     <div class="table-responsive">
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>Tên khóa học</td>
+                                 <td>Khai giảng Hà Nội</td>
+                                 <td>Khai giảng Hồ Chí Minh</td>
+                                 <td>Học phí</td>
+                                 <td>Brochure</td>
+                                 <td>Đăng ký</td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/khoa-hoc-ky-nang-ban-hang-cham-soc-khach-hang-dinh-cao/">KỸ NĂNG BÁN HÀNG &amp; CHĂM SÓC KHÁCH HÀNG</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>05/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 2.500.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="box1ctfm">
+                     <h3 class="title-dm">Chương trình đào tạo kỹ năng chuyên nghiệp</h3>
+                     <div class="table-responsive">
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>Tên khóa học</td>
+                                 <td>Khai giảng Hà Nội</td>
+                                 <td>Khai giảng Hồ Chí Minh</td>
+                                 <td>Học phí</td>
+                                 <td>Brochure</td>
+                                 <td>Đăng ký</td>
+                              </tr>
+                              <tr>
+                                 <td><a href="chuong-trinh-dao-tao/khoa-hoc-ky-nang-ban-hang-cham-soc-khach-hang-dinh-cao/">KỸ NĂNG BÁN HÀNG &amp; CHĂM SÓC KHÁCH HÀNG</a></td>
+                                 <td>
+                                    <p><strong></strong><span> Đang cập nhật</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span>05/2019</span></p>
+                                 </td>
+                                 <td>
+                                    <p><strong></strong><span> 2.500.000 VNĐ</span></p>
+                                 </td>
+                                 <td>
+                                    <a href="">Brochure</a>
+                                 </td>
+                                 <td><a href="dang-ky-khoa-hoc/">Đăng ký</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </main>
+      <div class="lienhe">
+         <div class="container">
+            <div class="row">
+               <div class="viendangky">
+                  <h4 class="id-section__heading">
+                     <span>Đăng ký để nhận ưu đãi từ FSB</span>
+                     <div class="vienngan center-block">
+                     </div>
+                  </h4>
+                  <div>
+                     <div class="formtv">
+                        <div role="form" class="wpcf7" id="wpcf7-f157-p476-o1" lang="vi" dir="ltr">
+                           <div class="screen-reader-response"></div>
+                           <form action="/ve-chung-toi/#wpcf7-f157-p476-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                              <div style="display: none;">
+                                 <input type="hidden" name="_wpcf7" value="157">
+                                 <input type="hidden" name="_wpcf7_version" value="5.0.4">
+                                 <input type="hidden" name="_wpcf7_locale" value="vi">
+                                 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f157-p476-o1">
+                                 <input type="hidden" name="_wpcf7_container_post" value="476">
+                              </div>
+                              <div class="row">
+                                 <div class="col-sm-6">
+                                    <span class="wpcf7-form-control-wrap hoten"><input type="text" name="hoten" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Họ và tên"></span><br>
+                                    <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Email"></span>
+                                    <p></p>
+                                 </div>
+                                 <div class="col-sm-6">
+                                    <span class="wpcf7-form-control-wrap dienthoai"><input type="tel" name="dienthoai" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control" aria-required="true" aria-invalid="false" placeholder="Điện thoại"></span><br>
+                                    <span class="wpcf7-form-control-wrap chucvu"><input type="text" name="chucvu" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Địa chỉ"></span>
+                                    <p></p>
+                                 </div>
+                                 <p></p>
+                              </div>
+                              <p>               <button class="btn btn-warning center-block">Đăng ký</button></p>
+                              <div class="wpcf7-response-output wpcf7-display-none"></div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-4">
+                     <section id="text-4" class="ft-ft widget widget_text">
+                        <div class="title-tt">
+                           <h3 class="widget-title"><span>TRỤ SỞ HÀ NỘI</span></h3>
+                           <div class="border-title-tt"></div>
+                        </div>
+                        <div class="textwidget">
+                           <ul class="f-list">
+                              <li class="f-list__item">Nhà C, Tòa nhà Việt Úc, Mỹ Đình 1, Nam Từ Liêm, Hà Nội</li>
+                              <li class="f-list__item">Phone: 0904 92 22 11</li>
+                              <li class="f-list__item">Email: daotaopublic@fsb.edu.vn</li>
+                              <li class="f-list__item"><a href="https://www.google.com/maps/place/FPT+School+of+Business(FSB)/@21.03275,105.760403,17z/data=!3m1!4b1!4m5!3m4!1s0x313454bc2166bbff:0xb376db308bdc6cbd!8m2!3d21.03275!4d105.7625917"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem bản đồ</a></li>
+                           </ul>
+                        </div>
+                     </section>
+                  </div>
+                  <div class="col-sm-4">
+                     <section id="text-5" class="ft-ft widget widget_text">
+                        <div class="title-tt">
+                           <h3 class="widget-title"><span>TRỤ SỞ HỒ CHÍ MINH</span></h3>
+                           <div class="border-title-tt"></div>
+                        </div>
+                        <div class="textwidget">
+                           <ul class="f-list">
+                              <li class="f-list__item">Lầu 2, Cao ốc Thiên Sơn, Số 5 Nguyễn Gia Thiều, P.6, Q.3, TP HCM</li>
+                              <li class="f-list__item">Phone: 0904 95 93 93</li>
+                              <li class="f-list__item">Email:&nbsp;daotaopublic@fsb.edu.vn</li>
+                              <li class="f-list__item"><a href="https://www.google.com/maps/place/5+Nguy%E1%BB%85n+Gia+Thi%E1%BB%81u,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7787167,106.6873233,17z/data=!3m1!4b1!4m5!3m4!1s0x31752f3aa017db69:0x61ee64450f3fbd0!8m2!3d10.7787167!4d106.689512"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem bản đồ</a></li>
+                           </ul>
+                        </div>
+                     </section>
+                  </div>
+                  <div class="col-sm-4">
+                     <section id="custom_html-3" class="widget_text ft-ft widget widget_custom_html">
+                        <div class="title-tt">
+                           <h3 class="widget-title"><span>Facebook</span></h3>
+                           <div class="border-title-tt"></div>
+                        </div>
+                        <img width="100%" src="images/fb.png" alt="">
+                     </section>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container">
+               <p>Copyright © 2019 - Viện Quản Trị và Công Nghệ FSB - Trường Đại Học FPT</p>
+            </div>
+         </div>
+      </footer>
+      <!-- #colophon -->
+      <div id="back_top"><i class="fa fa-angle-up"></i></div>
+      </div><!-- #page -->
+      <div id="hotline-mobile" class="hotlinemb">
+         <a href=""><img class="center-block" src="images/iconphone.png" alt=""></a>
+      </div>
+      <nav id="my-menu">
+         <ul>
+            <li><a href=""><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li>
+               <a href="">Chương trình đào tạo</a>
+               <ul>
+                  <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                  <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                  <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                  <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+                  <li><a href="">Chương trình đào tạo CEO GLOBAL</a></li>
+               </ul>
+            </li>
+            <li><a href="">Giảng viên</a></li>
+            <li><a href="">Lịch khai giảng</a></li>
+            <li><a href="">Thư viện</a></li>
+            <li><a href="">Tài liệu</a></li>
+            <li>
+               <a href="">Tin tức</a>
+               <ul>
+                  <li><a href="">Tin tuyển sinh</a></li>
+                  <li><a href="">Sự kiện</a></li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <script src="bootstrap/js/jquery-3.1.1.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="slick/slick.min.js"></script>
+      <script src="js/wow.min.js" ></script>
+      <script src="jQuery.mmenu/jquery.mmenu.all.js"></script>
+      <script src="OwlCarousel/owl.carousel.min.js" ></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
